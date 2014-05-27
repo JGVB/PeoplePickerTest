@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBookUI/AddressBookUI.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
 
 @end

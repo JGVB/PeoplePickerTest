@@ -21,6 +21,8 @@
 		70FFE84D1933FD59008D62C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FFE82F1933FD59008D62C6 /* UIKit.framework */; };
 		70FFE8551933FD59008D62C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70FFE8531933FD59008D62C6 /* InfoPlist.strings */; };
 		70FFE8571933FD59008D62C6 /* PeoplePickerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FFE8561933FD59008D62C6 /* PeoplePickerTestTests.m */; };
+		70FFE8621933FFB0008D62C6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FFE8601933FFB0008D62C6 /* AddressBook.framework */; };
+		70FFE8631933FFB0008D62C6 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FFE8611933FFB0008D62C6 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		70FFE8521933FD59008D62C6 /* PeoplePickerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeoplePickerTestTests-Info.plist"; sourceTree = "<group>"; };
 		70FFE8541933FD59008D62C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70FFE8561933FD59008D62C6 /* PeoplePickerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeoplePickerTestTests.m; sourceTree = "<group>"; };
+		70FFE8601933FFB0008D62C6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		70FFE8611933FFB0008D62C6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FFE8621933FFB0008D62C6 /* AddressBook.framework in Frameworks */,
+				70FFE8631933FFB0008D62C6 /* AddressBookUI.framework in Frameworks */,
 				70FFE82E1933FD59008D62C6 /* CoreGraphics.framework in Frameworks */,
 				70FFE8301933FD59008D62C6 /* UIKit.framework in Frameworks */,
 				70FFE82C1933FD59008D62C6 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		70FFE82A1933FD59008D62C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70FFE8601933FFB0008D62C6 /* AddressBook.framework */,
+				70FFE8611933FFB0008D62C6 /* AddressBookUI.framework */,
 				70FFE82B1933FD59008D62C6 /* Foundation.framework */,
 				70FFE82D1933FD59008D62C6 /* CoreGraphics.framework */,
 				70FFE82F1933FD59008D62C6 /* UIKit.framework */,

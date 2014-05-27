@@ -42,6 +42,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lName" destination="XaX-jc-dHW" id="0B5-pE-vEN"/>
+                        <outlet property="lphoneNumber" destination="UCK-Eo-Srf" id="GJs-NE-0NO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
